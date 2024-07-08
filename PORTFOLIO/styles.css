@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #080833;
+    color: #ffffff;
+}
+
+.header-wrap {
+    background-color: #281f72;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav-wrap ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-wrap li {
+    margin: 0 20px;
+}
+
+.nav-wrap a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.nav-wrap a:hover,
+.nav-wrap a.active {
+    background-color: #483c8d;
+}
+
+.home-wrap {
+    background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home-wrap h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.about-wrap,
+.portfolio-wrap,
+.contact-wrap {
+    background-color: rgba(104, 102, 164, 0.5);
+    padding: 40px 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+/* About Me Section Styles */
+.about-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.about-wrap h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about-wrap p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.about-wrap img {
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.about-wrap ul {
+    list-style: disc;
+    margin: 20px 0;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.project-wrap {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-wrap img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.project-wrap h2 {
+    margin: 10px 0;
+}
+
+.footer-wrap {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.btn {
+    background-color: #226fd3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #483c8d;
+}
+
+html {
+    scroll-behavior: smooth;
+}

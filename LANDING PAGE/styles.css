@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #5a84f7;
+    color: #333;
+}
+
+.header {
+    background-color: #1a1a2e;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 2em;
+}
+
+.header img {
+    height: 50px;
+}
+
+.header h1 {
+    font-size: 1.8em;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #162447;
+    padding: 1em 0;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #1f4068;
+}
+
+.hero-section {
+    background-image: url('file:///C:/Users/singh/OneDrive/Desktop/Untitled%20design.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: right;
+    padding: 250px 40px 150px;
+    position: relative;
+    height: 300px;
+}
+
+.hero-section::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(29, 29, 29, 0.5);
+    z-index: 1;
+}
+
+.hero-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    position: relative;
+    z-index: 2;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+    position: relative;
+    z-index: 2;
+}
+
+.hero-section .cta-buttons a {
+    padding: 1em 2.5em; 
+    font-size: 1.2em; 
+    color: #fff;
+    background-color: #e43f5a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+    position: relative;
+    z-index: 2;
+}
+
+.hero-section .cta-buttons a:hover {
+    background-color: #e8505b;
+}
+
+.features-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.features-section h3 {
+    font-size: 2.2em;
+    margin-bottom: 1em;
+}
+
+.features-section .features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.feature {
+    max-width: 300px;
+    margin: 20px;
+    text-align: left;
+    background-color: #ffbbf4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.feature h4 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    color: #1a1a2e;
+}
+
+.feature p {
+    color: #555;
+}
+
+.about-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-section h3 {
+    font-size: 2.2em;
+    margin-bottom: 1em;
+}
+
+.about-section p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+    color: #555;
+}
+
+.about-section img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.services-section {
+    background-color: #b7cafd;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.services-section h3 {
+    font-size: 2.2em;
+    margin-bottom: 1em;
+}
+
+.services-section .services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.service {
+    max-width: 300px;
+    margin: 20px;
+    text-align: left;
+    background-color: #ffcee9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.service h4 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    color: #1a1a2e;
+}
+
+.service p {
+    color: #555;
+}
+
+.footer {
+    background-color: #1a1a2e;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.footer p {
+    margin: 0;
+}
